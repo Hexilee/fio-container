@@ -1,0 +1,15 @@
+[global]
+filename=/test/test-file
+filesize=1g
+
+[common]
+rw=readwrite
+bs=4k
+direct=1
+size=1g
+
+[random]
+rw=randrw
+bs=4k
+direct=1
+size=1g
